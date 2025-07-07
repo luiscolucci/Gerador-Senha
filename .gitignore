@@ -1,0 +1,5 @@
+build
+dist
+gerador.exe
+gerador.spec
+#.gitignore

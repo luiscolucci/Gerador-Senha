@@ -5,7 +5,7 @@ from tkinter import messagebox
 
 def gerar_senha(tamanho=8):
     # Define os caracteres possíveis: letras, dígitos e caracteres especiais
-    caracteres = string.ascii_letters + string.digits + "!@#$%^&*()_+-=[]{}|;:,.<>/?"
+    caracteres = string.ascii_letters + string.digits + "!@#$%^&*()_+-=[]{};:,.<>/?"
     # Gera a senha aleatória
     senha = ''.join(random.choice(caracteres) for _ in range(tamanho))
     return senha

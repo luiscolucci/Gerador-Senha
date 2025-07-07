@@ -1,1 +1,1 @@
-Gerador de senhas aleatório basico
+Gerador de senhas aleatórias com caracteres especiais - basico
